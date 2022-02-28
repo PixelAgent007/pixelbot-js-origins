@@ -6,7 +6,7 @@ module.exports = new Origin({
     name: "Sporeling",
     player: "AlphaAxis64501",
     impact: 2,
-    description: "You are a species of spores and mushrooms formed together, seemingly harmless but extremley deadly that can kill in an instant.",
+    description: "You are a species of spore and mushrooms formed together, seemingly harmless but extremley deadly that can kill in an instant.",
     author: "KawatOwO#3016",
     src: "https://github.com/dark-moon-smp/Sporeling-Origin",
     actives: [
