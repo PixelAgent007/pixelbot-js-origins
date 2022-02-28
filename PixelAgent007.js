@@ -3,45 +3,38 @@ const Power = require("../lib/power.js");
 const Origin = require("../lib/origin.js");
 
 module.exports = new Origin({
-    name: "(Modified) Elytrian",
+    name: "Phantom",
     player: "PixelAgent007",
     impact: 3,
-    description: "Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.",
-    author: "LuaDotExe (Edited by PixelAgent007)",
-    src: "https://github.com/dark-moon-smp/modified-elytrian",
+    description: "Is it a plane? Is it a bird? No, it's a fucking phantom clipping through the ground. You all know what this is.",
+    author: "Apace",
+    src: "",
     actives: [
         new Power({
-            "name": "Gift of the Winds",
-            "description": "Every 40 seconds, you are able to launch 20 blocks up into the air. When already flying, you will instead be propelled forwards."
-        }),
-        new Power({
-            "name": "Air Breaks",
-            "description": "Every 20 seconds you can stop all of your motion for 5 seconds whilst in mid-air."
+            "name": "Phantomize",
+            "description": "When pressing your primary, you can walk through all blocks except obsidian. Whilst in this state, your hunger drains twice as fast."
         })
     ],
     pros: [
+    ],
+    passives: [
         new Power({
-            "name": "Winged",
-            "description": "You have Elytra wings without needing to equip any."
-        }),
-        new Power({
-            "name": "Aerial Combatant",
-            "description" : "You deal substantially more damage while in Elytra flight."
+            "name": "Translucent",
+            "description" : "You are slightly translucent."
         })
     ],
-    passives: [],
     cons: [
         new Power({
-            "name": "Need for Mobility",
-            "description": "You can not wear armor with protection values higher than chainmail."
+            "name": "League of Legends Pro",
+            "description": "You burn in the sun, except when phantomized."
         }),
         new Power({
-            "name": "Claustrophobia",
-            "description": "Being somewhere with a low ceiling for too long will weaken you and make you slower."
+            "name": "Frail",
+            "description": "You have 6 hearts."
         }),
         new Power({
-            "name": "Brittle Bones",
-            "description": "You take more damage from falling and flying into blocks."
+            "name": "Fast Metabolism",
+            "description": "You need to eat more."
         })
     ]
 });
