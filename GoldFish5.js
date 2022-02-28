@@ -46,7 +46,7 @@ module.exports = new Origin({
         }),
         new Power({
             "name": "Water Weight",
-            "description" : "Some of your abilities will be disabled if you get too wet."
+            "description" : "Some of your abilities will bee disabled if you get too wet."
         }),
         new Power({
             "name": "Absorbant",
